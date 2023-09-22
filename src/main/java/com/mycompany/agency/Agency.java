@@ -9,8 +9,14 @@ public class Agency
     //-----------------------------------------------------------------
     public static void main(String[] args)
     {
-        Staff personnel = new Staff();
+//        Staff personnel = new Staff("");
+        Intern intern = new Intern("", "", "", "", 0);
+        TempEmployee temp = new TempEmployee("", "", "", "", 20);
 
-        personnel.payday();
+//        personnel.payday();
+        intern.pay();
+        temp.pay();
+        temp.addHours(10);
+
     }
 }
