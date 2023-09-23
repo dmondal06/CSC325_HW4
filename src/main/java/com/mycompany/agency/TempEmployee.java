@@ -39,8 +39,8 @@ public class TempEmployee extends StaffEmployee
         return payRate * hoursWorked;
     }
 
-     @Override
+    @Override
     public String toString() {
-        return super.toString() + "Temp Employee" + name;
+        return super.toString() + "\nCurrent hours: " + hoursWorked;
     }
 }
