@@ -26,10 +26,12 @@ public class StaffEmployee extends StaffMember
     //          about a staff employee as a string.
     //-----------------------------------------------------------------
 
+  
     @Override
     public String toString() {
-        return "StaffEmployee{" + "socialSecurityNumber=" + socialSecurityNumber + ", payRate=" + payRate + '}';
+        return super.toString();
     }
+
     
 
     //-----------------------------------------------------------------
