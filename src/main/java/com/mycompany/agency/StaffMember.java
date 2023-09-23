@@ -17,9 +17,9 @@ public abstract class StaffMember {
     }
 
     
-    @Override
+  @Override
     public String toString() {
-        return "StaffMember{" + "name=" + name + ", address=" + address + ", phone=" + phone + '}';
+        return "Name: " + name + "\nAddress: " + address + "\nPhone: " + phone;
     }
 
     //-----------------------------------------------------------------
