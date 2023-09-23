@@ -27,7 +27,7 @@ public class TempEmployee extends StaffEmployee
     public void addHours(int moreHours)
     {
         hoursWorked = hoursWorked + moreHours;
-        System.out.println("Temp Employee Hours Worked: " + hoursWorked);
+       
     }
 
     //-----------------------------------------------------------------
@@ -35,7 +35,7 @@ public class TempEmployee extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-        System.out.println("Temp Employee Pay: " + payRate * hoursWorked);
+       
         return payRate * hoursWorked;
     }
 
